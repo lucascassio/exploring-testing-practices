@@ -37,6 +37,16 @@ Com base nos dados obtidos, selecione uma prática ou dado de teste relevante e 
 
 ## Respostas
 
-**1. Repositório selecionado:** `<URL_DO_REPOSITÓRIO_AQUI>`
+**1. Repositório selecionado:** `https://github.com/vercel/next.js`
 
-**2. Explicação:** `<SUA_EXPLICAÇÃO_AQUI>`
+**2. Explicação:** 
+
+O repositório Next.js adota a prática de **testes em múltiplas camadas com separação clara entre tipos de teste**. Analisando através do TestMiner, observa-se que o projeto utiliza uma estratégia bem definida:
+
+- **Testes unitários**: Focam em componentes e funções isoladas usando Jest, testando lógica pura sem dependências externas
+- **Testes de integração**: Verificam interações entre múltiplos componentes e módulos, incluindo comportamento end-to-end com Playwright
+- **Organização por diretórios**: Testes estão colocados próximos ao código fonte (padrão `__tests__/` ou `*.test.js`), facilitando manutenção
+
+Uma prática particularmente relevante é o uso de **fixtures e mocks reutilizáveis**. O Next.js mantém um conjunto de cenários de teste padronizados que são aplicados consistentemente, reduzindo duplicação de código de teste e melhorando a cobertura. Além disso, o projeto usa **cobertura de teste controladas** para garantir que mudanças críticas sejam sempre testadas.
+
+Essa abordagem garante confiabilidade em um projeto grande e complexo, permitindo que a equipe identifique regressões rapidamente e mantenha alta qualidade ao longo de múltiplas versões.
