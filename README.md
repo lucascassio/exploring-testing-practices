@@ -39,6 +39,8 @@ Com base nos dados obtidos, selecione uma prática ou dado de teste relevante e 
 
 **1. Repositório selecionado:** `https://github.com/vercel/next.js`
 
+<img width="1572" height="1314" alt="image" src="https://github.com/user-attachments/assets/7393a19a-7404-46a6-8848-52c36d38c92a" />
+
 **2. Explicação:** 
 
 O repositório Next.js adota a prática de **testes em múltiplas camadas com separação clara entre tipos de teste**. Analisando através do TestMiner, observa-se que o projeto utiliza uma estratégia bem definida:
@@ -50,3 +52,5 @@ O repositório Next.js adota a prática de **testes em múltiplas camadas com se
 Uma prática particularmente relevante é o uso de **fixtures e mocks reutilizáveis**. O Next.js mantém um conjunto de cenários de teste padronizados que são aplicados consistentemente, reduzindo duplicação de código de teste e melhorando a cobertura. Além disso, o projeto usa **cobertura de teste controladas** para garantir que mudanças críticas sejam sempre testadas.
 
 Essa abordagem garante confiabilidade em um projeto grande e complexo, permitindo que a equipe identifique regressões rapidamente e mantenha alta qualidade ao longo de múltiplas versões.
+
+
